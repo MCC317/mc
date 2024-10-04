@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(215, 205, 184);
+}
+
+
+.hero {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    margin: 30px auto ;
+    display: flex;
+    align-items: center;
+}
+
+
+.bouton{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.parents{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(52, 24, 13);
+    }
+
+.banner { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(49, 32, 23);
+    height: 50vh;
+    border-radius: 20px;
+}
+
+
+          .banner {
+            display: flex;
+            margin-top: 80px ;
+          }
+
+          .left-column, right-column {
+            flex-basis: 50%;
+          }
+          . right-column img {
+            width: 100%;
+
+          }
+
+
+
+ .container-a {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+ }
+.container h2 {
+margin-bottom: 10px;
+}
+.container p {
+    line-height: 1,4;
+}
+
+.container-b {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.container-c {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
